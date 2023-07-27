@@ -26,8 +26,9 @@ const Navbar = () => {
 					}}
 				>
 					<img src={logoB} alt="logo" className="w-9 h-9 object-contain" />
-					<p className='text-white text-[18px] font-bold cursor-pointer'>
-						Benjamin <span className='sm:block hidden'>| Morgiewicz</span>
+					<p className='text-white text-[18px] font-bold cursor-pointer flex'>
+						Benjamin &nbsp;
+						<span className='sm:block hidden'>|&nbsp; Morgiewicz</span>
 						{/* convert "Morgiewicz" into @ityped job titles */}
 					</p>
 				</Link>
