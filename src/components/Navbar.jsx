@@ -11,6 +11,28 @@ const Navbar = () => {
 	const [active, setActive] = useState("")
 	const [toggle, setToggle] = useState(false);
 
+	const NavUl = ({ ulClass, liClass, changeToggle }) => {
+		return (
+			<ul className={ulClass}>
+				{navLinks.map((link) => (
+					<li
+						key={link.id}
+						className={`${active === link.title
+							? "text-white"
+							: "text-secondary"
+							} ${liClass}`}
+						onClick={() => {
+							changeToggle ? setToggle(!toggle) : null
+							setActive(link.title)
+						}}
+					>
+						<a href={`#${link.id}`}>{link.title}</a>
+					</li>
+				))}
+			</ul>
+		)
+	}
+
 	return (
 		<nav
 			className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
@@ -33,20 +55,11 @@ const Navbar = () => {
 					</p>
 				</Link>
 
-				<ul className="list-none hidden sm:flex flex-row gap-10">
-					{navLinks.map((link) => (
-						<li
-							key={link.id}
-							className={`${active === link.title
-								? "text-white"
-								: "text-secondary"
-								} hover:text-white text-[18px] font-medium cursor-pointer`}
-							onClick={() => setActive(link.title)}
-						>
-							<a href={`#${link.id}`}>{link.title}</a>
-						</li>
-					))}
-				</ul>
+				<NavUl
+					ulClass="list-none hidden sm:flex flex-row gap-10"
+					liClass="hover:text-white text-[18px] font-medium cursor-pointer"
+					changeToggle={false}
+				/>
 
 				<div className="sm:hidden flex flex-1 justify-end items-center">
 					<img
@@ -61,24 +74,11 @@ const Navbar = () => {
 						p-6 black-gradient absolute top-20 right-0 
 						mx-4 my-2 min-w-[140px] z-10 rounded-xl`
 					}>
-						{/* MAKE THIS DRY */}
-						<ul className="list-none flex justify-end items-start flex-col gap-4">
-							{navLinks.map((link) => (
-								<li
-									key={link.id}
-									className={`${active === link.title
-										? "text-white"
-										: "text-secondary"
-										} font-poppins font-medium cursor-pointer text-[16px]`}
-									onClick={() => {
-										setToggle(!toggle);
-										setActive(link.title);
-									}}
-								>
-									<a href={`#${link.id}`}>{link.title}</a>
-								</li>
-							))}
-						</ul>
+						<NavUl
+							ulClass="list-none flex justify-end items-start flex-col gap-4"
+							liClass="font-poppins font-medium cursor-pointer text-[16px]"
+							changeToggle={true}
+						/>
 					</div>
 
 				</div>
