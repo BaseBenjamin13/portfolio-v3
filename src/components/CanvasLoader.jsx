@@ -1,6 +1,6 @@
 import { Html, useProgress } from "@react-three/drei";
 
-const Loader = () => {
+const CanvasLoader = () => {
 
 	const { progress } = useProgress();
 
@@ -12,7 +12,7 @@ const Loader = () => {
 					fontSize: 20, 
 					color: '#f1f1f1',
 					fontWeight: 800,
-					marginTop: 80,
+					marginTop: 70,
 				}}
 			>
 				{progress.toFixed(2)}%
@@ -21,4 +21,4 @@ const Loader = () => {
 	)
 }
 
-export default Loader
+export default CanvasLoader;
