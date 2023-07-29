@@ -3,10 +3,12 @@ import { Canvas } from '@react-three/fiber';
 import { Decal, Float, OrbitControls, Preload, useTexture } from '@react-three/drei';
 
 import CanvasLoader from "../CanvasLoader";
+import woodTexture from '/desktop_pc/textures/Material_baseColor.jpeg'
 
 const Ball = (props) => {
 
 	const [decal] = useTexture([props.imgUrl]);
+	const [woodTextureDecal] = useTexture([woodTexture]);
 
 	return (
 		<Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -15,6 +17,7 @@ const Ball = (props) => {
 			<mesh castShadow receiveShadow scale={2.75}>
 				<icosahedronGeometry args={[1, 1]} />
 				<meshStandardMaterial 
+					map={woodTextureDecal}
 					color="#fff8eb"
 					polygonOffset
 					polygonOffsetFactor={-5}
