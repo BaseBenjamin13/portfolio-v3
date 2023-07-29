@@ -15,14 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    logoB,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +115,7 @@ const experiences = [
     {
         title: "Web Developer",
         company_name: "Freelance",
-        icon: starbucks,
+        icon: logoB,
         iconBg: "#383E56",
         date: "June 2023 - Present",
         points: [
@@ -131,8 +128,9 @@ const experiences = [
     {
         title: "Landscape Manager",
         company_name: "LTP Landscaping",
-        icon: tesla,
-        iconBg: "#E6DEDD",
+        icon: logoB,
+        iconBg: "#383E56",
+        // iconBg: "#E6DEDD",
         date: "April 2016 - June 2023",
         points: [
             "Led a team of 3, trained the team to use required tools, and worked efficiently to increase company revenue by 50%.",
