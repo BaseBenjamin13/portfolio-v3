@@ -167,31 +167,26 @@ const testimonials = [
 ];
 
 const projects = [
+    // move most of description into bullet points
+    //Add all techs used
     {
-        name: "Car Rent",
+        name: "Tech Excess",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Tech excess is a tech store made and reviewed by Benjamin Morgiewicz. Made with React, Django, PSQL, Python, and PayPal's API. In three weeks I learned and used Django's User, Knox authentication token, and PayPal.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: "https://i.imgur.com/zKykPu2.png",
+        source_code_link: "https://github.com/BaseBenjamin13/tech-excess-client",
+        source_code_link_backend: "https://github.com/BaseBenjamin13/tech-excess-server",
     },
     {
-        name: "Job IT",
+        name: "Analytical",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A group project that helps you manage client & invoice data. I worked on the frontend while my teammate was on the backend. We had regular standups to ensure great communication, time-management, and overall project success. Utilized React, MUI, JavaScript, HTML, CSS, Python, Django, and SQL.",
         tags: [
             {
                 name: "react",
@@ -201,34 +196,24 @@ const projects = [
                 name: "restapi",
                 color: "green-text-gradient",
             },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: "https://i.imgur.com/xczKVTc.png",
+        source_code_link: "https://github.com/BaseBenjamin13/dashboard_client",
+        source_code_link_backend: "https://github.com/darrius-brown/dashboard_django/tree/main",
     },
     {
-        name: "Trip Guide",
+        name: "Star Wars Social",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Star Wars Social - Where all star wars fans come to unite. All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later. in API Development, made RESTful JSON API fetch calls to an Express, MongoDB, and Node backend handling all create, read, update, delete (CRUD), and tested all backend routes during development using Postman. Used Mongoose, and design patterns to define 4 JSON schemas for MongoDB collections. Utilized CSS for style and grid template for layout. Bootstrap for the navbar. Used passport, express-session, and web architecture skills to temporarily keep users logged in until logout.",
         tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
             {
                 name: "css",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: "https://i.imgur.com/NdPWO86.jpg",
+        source_code_link: 'https://github.com/BaseBenjamin13/starwars-social',
+        source_code_link_backend: false,
     },
 ];
 
