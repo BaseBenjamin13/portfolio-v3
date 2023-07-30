@@ -180,6 +180,7 @@ const projects = [
             },
         ],
         image: "https://i.imgur.com/zKykPu2.png",
+        link: "https://tech-excess.netlify.app",
         source_code_link: "https://github.com/BaseBenjamin13/tech-excess-client",
         source_code_link_backend: "https://github.com/BaseBenjamin13/tech-excess-server",
     },
@@ -198,6 +199,7 @@ const projects = [
             },
         ],
         image: "https://i.imgur.com/xczKVTc.png",
+        link: "https://dbanalytical.netlify.app",
         source_code_link: "https://github.com/BaseBenjamin13/dashboard_client",
         source_code_link_backend: "https://github.com/darrius-brown/dashboard_django/tree/main",
     },
@@ -207,12 +209,48 @@ const projects = [
         "Where all star wars fans come to unite. All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later. in API Development, made RESTful JSON API fetch calls to an Express, MongoDB, and Node backend handling all create, read, update, delete (CRUD), and tested all backend routes during development using Postman. Used Mongoose, and design patterns to define 4 JSON schemas for MongoDB collections. Utilized CSS for style and grid template for layout. Bootstrap for the navbar. Used passport, express-session, and web architecture skills to temporarily keep users logged in until logout.",
         tags: [
             {
-                name: "css",
+                name: "JavaScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "MongoDB",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "CSS",
                 color: "pink-text-gradient",
             },
         ],
         image: "https://i.imgur.com/NdPWO86.jpg",
+        link: "https://starwars-social.herokuapp.com/movies",
         source_code_link: 'https://github.com/BaseBenjamin13/starwars-social',
+        source_code_link_backend: false,
+    },
+    {
+        name: "BlackJack",
+        description:
+        "BlackJack is a card game. The goal of blackjack is to get 21 but if you are over 21 you lose, you can win by getting closer to 21 than the dealer. Utilized Javascript for the logic behind the game and dom manipulation to have live feedback, made in 2 weeks. Created Black Jack with a desktop-first approach and styled using Styled Components and CSS3 with flexbox layouts.",
+        tags: [
+            {
+                name: "JavaScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "HTML5",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "https://i.imgur.com/WADvHYc.jpg",
+        link: "https://basebenjamin13.github.io/Blackjack/",
+        source_code_link: 'https://github.com/BaseBenjamin13/Blackjack',
         source_code_link_backend: false,
     },
 ];
