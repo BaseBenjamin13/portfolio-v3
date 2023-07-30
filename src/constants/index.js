@@ -204,7 +204,7 @@ const projects = [
     {
         name: "Star Wars Social",
         description:
-        "Star Wars Social - Where all star wars fans come to unite. All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later. in API Development, made RESTful JSON API fetch calls to an Express, MongoDB, and Node backend handling all create, read, update, delete (CRUD), and tested all backend routes during development using Postman. Used Mongoose, and design patterns to define 4 JSON schemas for MongoDB collections. Utilized CSS for style and grid template for layout. Bootstrap for the navbar. Used passport, express-session, and web architecture skills to temporarily keep users logged in until logout.",
+        "Where all star wars fans come to unite. All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later. in API Development, made RESTful JSON API fetch calls to an Express, MongoDB, and Node backend handling all create, read, update, delete (CRUD), and tested all backend routes during development using Postman. Used Mongoose, and design patterns to define 4 JSON schemas for MongoDB collections. Utilized CSS for style and grid template for layout. Bootstrap for the navbar. Used passport, express-session, and web architecture skills to temporarily keep users logged in until logout.",
         tags: [
             {
                 name: "css",
