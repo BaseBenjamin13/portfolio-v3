@@ -267,23 +267,23 @@
       "samplers": [
         {
           "input": 8,
-          "interpolation": "LINEAR",
-          "output": 9
+          "output": 9,
+          "interpolation": "LINEAR"
         },
         {
           "input": 10,
-          "interpolation": "LINEAR",
-          "output": 11
+          "output": 11,
+          "interpolation": "LINEAR"
         },
         {
           "input": 12,
-          "interpolation": "LINEAR",
-          "output": 13
+          "output": 13,
+          "interpolation": "LINEAR"
         },
         {
           "input": 14,
-          "interpolation": "LINEAR",
-          "output": 15
+          "output": 15,
+          "interpolation": "LINEAR"
         }
       ]
     }
@@ -331,14 +331,12 @@
       "buffer": 0,
       "byteLength": 3000,
       "byteOffset": 1631744,
-      "byteStride": 12,
       "name": "floatBufferViews"
     },
     {
       "buffer": 0,
       "byteLength": 14432,
       "byteOffset": 1634744,
-      "byteStride": 16,
       "name": "floatBufferViews"
     }
   ],
