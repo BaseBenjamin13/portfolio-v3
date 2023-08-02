@@ -5,6 +5,8 @@ import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from '../constants';
 
+//display show more button if text is too long
+
 const Testimonial = ({ index, testimonial, name, designation, company, image }) => (
 	<motion.div 
 		variants={fadeIn("", "spring", index * 0.5, 0.75)}
