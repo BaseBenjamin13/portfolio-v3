@@ -11,7 +11,7 @@ import { SectionWrapper } from "../hoc";
 const ServiceCard = ({ index, title, icon, }) => {
 	return (
 		<Tilt className="xs:w-[250px] w-full ">
-			<motion.div 
+			<motion.div
 				variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
 				className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
 			>
@@ -38,12 +38,21 @@ const About = () => {
 			</motion.div>
 
 			<motion.p
-				variants={fadeIn("", "", 0.1, 1)}
+				variants={fadeIn("right", "", 0.5, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
 				I am Benjamin Morgiewicz, a software engineer who loves to write and fix code to find
 				a solution to any problem. I use my problem-solving brain and hard work
 				experience to make life easier and more fun with intelligent code.
+
+				<p className="mt-4">
+
+					I love coding because there is an unscalable potential. There will never be
+					a time in my life when I can say "I have learned it all". Coding is the only
+					thing that I genuinely enjoy continuously learning, and the fact that I can
+					continue to truly learn in the world of software engineering for the rest of
+					my life brings me joy.
+				</p>
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10">
