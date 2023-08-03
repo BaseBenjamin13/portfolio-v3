@@ -6,7 +6,6 @@ import CanvasLoader from "../CanvasLoader";
 
 const Earth = () => {
 	const earth = useGLTF('./planet/scene.gltf');
-	console.log(earth.scene)
 	return (
 		<primitive
 			object={earth.scene}
