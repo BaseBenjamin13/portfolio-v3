@@ -70,6 +70,10 @@ const technologies = [
         icon: reactjs,
     },
     {
+        name: "Python",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    },
+    {
         name: "HTML 5",
         icon: html,
     },
@@ -98,6 +102,10 @@ const technologies = [
         icon: mongodb,
     },
     {
+        name: "PSQL",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    },
+    {
         name: "Three JS",
         icon: threejs,
     },
@@ -109,10 +117,6 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    // {
-    //     name: "docker",
-    //     icon: docker,
-    // },
 ];
 
 const experiences = [
