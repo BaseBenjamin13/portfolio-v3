@@ -10,13 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
     "@emailjs/browser": "^3.11.0",
+    "@mui/material": "^5.14.3",
     "@react-three/drei": "^9.80.0",
     "dotenv": "^16.3.1",
     "framer-motion": "^10.13.1",
     "maath": "^0.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-github-calendar": "^4.0.1",
+    "react-github-calender": "^1.1.0",
     "react-router-dom": "^6.14.2",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0"
