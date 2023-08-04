@@ -159,7 +159,23 @@ const projects = [
             "Tech excess is a tech store made and reviewed by Benjamin Morgiewicz. Made with React, Django, PSQL, Python, and PayPal's API. In three weeks I learned and used Django's User, Knox authentication token, and PayPal.",
         tags: [
             {
-                name: "react",
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Python",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Django",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "PostgreSQL",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Github",
                 color: "blue-text-gradient",
             },
         ],
@@ -174,12 +190,36 @@ const projects = [
         "A group project that helps you manage client & invoice data. I worked on the frontend while my teammate was on the backend. We had regular standups to ensure great communication, time-management, and overall project success. Utilized React, MUI, JavaScript, HTML, CSS, Python, Django, and SQL.",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "MUI",
                 color: "green-text-gradient",
+            },
+            {
+                name: "Django",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "SQL",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "HTML5",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Python",
+                color: "green-text-gradient",
+            },
+            {
+                name: "CSS3",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "pink-text-gradient",
             },
         ],
         image: "https://i.imgur.com/xczKVTc.png",
@@ -190,7 +230,7 @@ const projects = [
     {
         name: "Star Wars Social",
         description:
-        "Where all star wars fans come to unite. All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later. in API Development, made RESTful JSON API fetch calls to an Express, MongoDB, and Node backend handling all create, read, update, delete (CRUD), and tested all backend routes during development using Postman. Used Mongoose, and design patterns to define 4 JSON schemas for MongoDB collections. Utilized CSS for style and grid template for layout. Bootstrap for the navbar. Used passport, express-session, and web architecture skills to temporarily keep users logged in until logout.",
+        "All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later. Made RESTful JSON API fetch calls to an Express, MongoDB, and Node backend handling all (CRUD) functionality's, and tested all backend routes during development using Postman. Used design patterns to define 4 JSON schemas for MongoDB collections. Used passport, and express-session for user authentication.",
         tags: [
             {
                 name: "JavaScript",
@@ -205,8 +245,16 @@ const projects = [
                 color: "orange-text-gradient",
             },
             {
-                name: "CSS",
+                name: "Express",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "Bootstrap",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Handlebars",
+                color: "green-text-gradient",
             },
         ],
         image: "https://i.imgur.com/NdPWO86.jpg",
@@ -228,7 +276,7 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "CSS3",
                 color: "pink-text-gradient",
             },
         ],
