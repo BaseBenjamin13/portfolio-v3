@@ -41,18 +41,22 @@ const services = [
     {
         title: "Web Developer",
         icon: web,
+        link: false,
     },
     {
         title: "React Native Developer",
         icon: mobile,
+        link: false,
     },
     {
         title: "Backend Developer",
         icon: backend,
+        link: false,
     },
     {
         title: "Content Creator",
         icon: creator,
+        link: 'https://www.youtube.com/channel/UCOJiwVUueAlGqo788D3d-uQ',
     },
 ];
 
@@ -151,8 +155,6 @@ const testimonials = [
 ];
 
 const projects = [
-    // move most of description into bullet points
-    //Add all techs used
     {
         name: "Tech Excess",
         description:
