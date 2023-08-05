@@ -6,6 +6,7 @@ import CanvasLoader from '../CanvasLoader';
 
 const Computers = ({ isMobile }) => {
 
+	// const computer = useGLTF('./desktop_pc/torque_scene.gltf');
 	const computer = useGLTF('./desktop_pc/pc_scene.gltf');
 
 	return (
