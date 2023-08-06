@@ -85,13 +85,9 @@ const technologies = [
         name: "Node JS",
         icon: nodejs,
     },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
     // {
-    //     name: "Redux Toolkit",
-    //     icon: redux,
+    //     name: "TypeScript",
+    //     icon: typescript,
     // },
     {
         name: "Tailwind CSS",
@@ -105,14 +101,14 @@ const technologies = [
         name: "PSQL",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
     },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "git",
-        icon: git,
-    },
+    // {
+    //     name: "Three JS",
+    //     icon: threejs,
+    // },
+    // {
+    //     name: "git",
+    //     icon: git,
+    // },
     {
         name: "figma",
         icon: figma,
