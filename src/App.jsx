@@ -19,7 +19,7 @@ const App = () => {
 				<About />
 				<Experience />
 				<GitHistory />
-				<Tech />
+				{/* <Tech /> */}
 				<Works />
 				<Feedbacks />
 
