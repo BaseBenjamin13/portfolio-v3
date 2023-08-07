@@ -81,18 +81,18 @@ const technologies = [
         name: "CSS 3",
         icon: css,
     },
-    // {
-    //     name: "Node JS",
-    //     icon: nodejs,
-    // },
-    // {
-    //     name: "TypeScript",
-    //     icon: typescript,
-    // },
-    // {
-    //     name: "Tailwind CSS",
-    //     icon: tailwind,
-    // },
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
     {
         name: "MongoDB",
         icon: mongodb,
@@ -105,14 +105,14 @@ const technologies = [
     //     name: "Three JS",
     //     icon: threejs,
     // },
-    // {
-    //     name: "git",
-    //     icon: git,
-    // },
-    // {
-    //     name: "figma",
-    //     icon: figma,
-    // },
+    {
+        name: "git",
+        icon: git,
+    },
+    {
+        name: "figma",
+        icon: figma,
+    },
 ];
 
 const experiences = [
