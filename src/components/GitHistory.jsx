@@ -25,12 +25,9 @@ function GitHistory() {
                 <GitHubCalendar
                     fontSize={matches ? 15 : 25}
                     blockSize={15}
-                    // blockRadius={5}
                     color="blue"
                     username="basebenjamin13"
                 />
-                {/* </GitHubCalendar> */}
-
             </Stack>
         </div>
     )

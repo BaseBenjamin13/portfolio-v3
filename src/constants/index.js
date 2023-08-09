@@ -8,17 +8,11 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
     logoB,
 } from "../assets";
 
@@ -101,10 +95,6 @@ const technologies = [
         name: "PSQL",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
     },
-    // {
-    //     name: "Three JS",
-    //     icon: threejs,
-    // },
     {
         name: "git",
         icon: git,
