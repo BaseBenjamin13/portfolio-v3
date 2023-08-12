@@ -39,7 +39,8 @@ const App = () => {
 				<Experience />
 				<GitHistory />
 
-				{!isMobile && <Tech />}
+				<Tech />
+				{/* {!isMobile && <Tech />} */}
 
 				<Works />
 				<Feedbacks />
