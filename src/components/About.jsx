@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import profile from '../assets/profile.jpeg';
 
 
 const ServiceCard = ({ index, title, icon, link }) => {
@@ -36,6 +37,28 @@ const ServiceCard = ({ index, title, icon, link }) => {
 	)
 }
 
+const AboutText = () => {
+	return (
+		<motion.p
+			variants={fadeIn("right", "", 0.5, 1)}
+			className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+		>
+			I am Benjamin Morgiewicz, a software engineer who loves to write and fix code to find
+			a solution to any problem. I use my problem-solving brain and hard work
+			experience to make life easier and more fun with intelligent code.
+
+			<p className="mt-4">
+
+				I love coding because there is an unscalable potential. There will never be
+				a time in my life when I can say "I have learned it all". Coding is the only
+				thing that I genuinely enjoy continuously learning, and the fact that I can
+				continue to truly learn in the world of software engineering for the rest of
+				my life brings me joy.
+			</p>
+		</motion.p>
+	)
+}
+
 
 const About = () => {
 	return (
@@ -44,24 +67,13 @@ const About = () => {
 				<p className={styles.sectionSubText}>Introduction</p>
 				<h2 className={styles.sectionHeadText}>Overview.</h2>
 			</motion.div>
-
-			<motion.p
-				variants={fadeIn("right", "", 0.5, 1)}
-				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-			>
-				I am Benjamin Morgiewicz, a software engineer who loves to write and fix code to find
-				a solution to any problem. I use my problem-solving brain and hard work
-				experience to make life easier and more fun with intelligent code.
-
-				<p className="mt-4">
-
-					I love coding because there is an unscalable potential. There will never be
-					a time in my life when I can say "I have learned it all". Coding is the only
-					thing that I genuinely enjoy continuously learning, and the fact that I can
-					continue to truly learn in the world of software engineering for the rest of
-					my life brings me joy.
-				</p>
-			</motion.p>
+			<div className="flex flex-wrap gap-10">
+			{window.innerWidth > 1160 && <AboutText />}
+				<div className="h-[225px] mt-5 green-pink-gradient p-[2.5px] rounded-[20px] shadow-card">
+					<img className="h-[220px] rounded-[20px]" src={profile} />
+				</div>
+			</div>
+			{window.innerWidth <= 1160 && <AboutText />}
 
 			<div className="mt-20 flex flex-wrap gap-10">
 				{
