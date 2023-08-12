@@ -14,6 +14,9 @@ import {
     git,
     figma,
     logoB,
+    python,
+    django,
+    psql,
 } from "../assets";
 
 export const navLinks = [
@@ -65,7 +68,7 @@ const technologies = [
     },
     {
         name: "Python",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        icon: python,
     },
     {
         name: "HTML 5",
@@ -93,7 +96,11 @@ const technologies = [
     },
     {
         name: "PSQL",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        icon: psql,
+    },
+    {
+        name: "Django",
+        icon: django,
     },
     {
         name: "git",
@@ -104,6 +111,56 @@ const technologies = [
         icon: figma,
     },
 ];
+// const technologies = [
+//     {
+//         name: "JavaScript",
+//         icon: javascript,
+//     },
+//     {
+//         name: "React JS",
+//         icon: reactjs,
+//     },
+//     {
+//         name: "Python",
+//         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+//     },
+//     {
+//         name: "HTML 5",
+//         icon: html,
+//     },
+//     {
+//         name: "CSS 3",
+//         icon: css,
+//     },
+//     {
+//         name: "Node JS",
+//         icon: nodejs,
+//     },
+//     {
+//         name: "TypeScript",
+//         icon: typescript,
+//     },
+//     {
+//         name: "Tailwind CSS",
+//         icon: tailwind,
+//     },
+//     {
+//         name: "MongoDB",
+//         icon: mongodb,
+//     },
+//     {
+//         name: "PSQL",
+//         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+//     },
+//     {
+//         name: "git",
+//         icon: git,
+//     },
+//     {
+//         name: "figma",
+//         icon: figma,
+//     },
+// ];
 
 const experiences = [
     {
