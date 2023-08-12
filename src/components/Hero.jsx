@@ -24,12 +24,11 @@ const Hero = () => {
 						I love to write and fix code to <br className="sm:hidden block" />
 						find a solution to any problem.
 					</p>
-
+					<h1 className={`${styles.heroInfoText}`}>
+						Interactable 3D
+						<span className="text-[#915eff]"> Model.</span>
+					</h1>
 				</div>
-			</div>
-
-			<div className="flex w-full h-auto absolute top-[360px] z-[1] justify-center">
-				<h1 className={`${styles.InstructionalText}`}>Interactable 3D Model</h1>
 			</div>
 
 			<ComputersCanvas />

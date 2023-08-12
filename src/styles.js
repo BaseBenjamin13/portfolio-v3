@@ -8,7 +8,9 @@ const styles = {
   heroHeadText:
     "font-black text-white lg:text-[63px] sm:text-[34px] xs:text-[26px] text-[23px] lg:leading-[98px] mt-2",
   heroSubText:
-    "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
+    "text-[#dfd9ff] font-medium lg:text-[28px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
+  heroInfoText:
+    "text-[#dfd9ff] mt-5 font-medium lg:text-[28px] sm:text-[26px]  xs:text-[20px] text-[16px] lg:leading-[40px]",
 
   sectionHeadText:
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
@@ -16,7 +18,7 @@ const styles = {
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 
   InstructionalText:
-    "text-[#915eff] font-medium lg:text-[20px] sm:text-[20px] xs:text-[18px] text-[18px] lg:leading-[40px]",
+    "text-[#915eff] font-medium lg:text-[20px] sm:text-[20px] xs:text-[18px] ml-10 mt-5 text-[18px] lg:leading-[40px]",
 };
 
 export { styles };
