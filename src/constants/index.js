@@ -277,7 +277,7 @@ const projects = [
         source_code_link_backend: "https://github.com/darrius-brown/dashboard_django/tree/main",
     },
     {
-        name: "Star Wars Social",
+        name: "StarWars Social",
         description:
         "All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later. Made RESTful JSON API fetch calls to an Express, MongoDB, and Node backend handling all (CRUD) functionality's, and tested all backend routes during development using Postman. Used design patterns to define 4 JSON schemas for MongoDB collections. Used passport, and express-session for user authentication.",
         tags: [
