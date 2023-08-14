@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
-import { navLinks } from '../constants';
+import { navLinks, navExternalLinks } from '../constants';
 import { logoB, menu, close } from '../assets';
 
 
@@ -29,6 +29,18 @@ const Navbar = () => {
 						<a href={`#${link.id}`}>{link.title}</a>
 					</li>
 				))}
+
+				|
+				
+				{navExternalLinks.map((link, index) => (
+					<li
+						key={index}
+						className={`text-secondary underline ${liClass}`}
+					>
+						<a href={`${link.link}`} target="_blank" alt={link.title}>{link.title}</a>
+					</li>
+				))}
+
 			</ul>
 		)
 	}

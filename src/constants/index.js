@@ -33,6 +33,20 @@ export const navLinks = [
         title: "Contact",
     },
 ];
+export const navExternalLinks = [
+    {
+        title: "Github",
+        link: "https://github.com/BaseBenjamin13"
+    },
+    {
+        title: "LinkedIn",
+        link: "https://www.linkedin.com/in/benjamin-morgiewicz/"
+    },
+    {
+        title: "Resume",
+        link: "https://docs.google.com/document/d/13UiQ3TOMY6_9RDQqnfWd92x5trSAhSIbrGzdXgJZ_Gk/edit?usp=sharing"
+    },
+];
 
 const services = [
     {

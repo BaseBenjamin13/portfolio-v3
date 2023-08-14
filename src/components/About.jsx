@@ -65,7 +65,7 @@ const About = () => {
 		<>
 			<motion.div variants={textVariant()}>
 				<p className={styles.sectionSubText}>Introduction</p>
-				<h2 className={styles.sectionHeadText}>Overview.</h2>
+				<h2 className={styles.sectionHeadText}>About Me.</h2>
 			</motion.div>
 			<div className="flex flex-wrap gap-10">
 			{window.innerWidth > 1160 && <AboutText />}
