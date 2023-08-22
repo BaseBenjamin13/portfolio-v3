@@ -213,6 +213,14 @@ const testimonials = [
         company: false,
         image: "https://avatars.githubusercontent.com/u/98440887?v=4",
     },
+    {
+        testimonial:
+            "Benjamin is a skilled React developer who consistently delivered impressive projects. Their ability to explain technical concepts stood out, making teamwork effective and enjoyable. Their friendly approach and strong communication make them an excellent asset to any team.",
+        name: "Jerome Haynes",
+        designation: false,
+        company: false,
+        image: "https://jeromehaynes.com/_ipx/w_384,q_75/%2F_next%2Fstatic%2Fmedia%2Fjh.82a0923d.jpg?url=%2F_next%2Fstatic%2Fmedia%2Fjh.82a0923d.jpg&w=384&q=75",
+    },
 ];
 
 const projects = [
