@@ -11,7 +11,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, link }) => {
 	return (
-		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+		<div 
 			className="bg-tertiary p-5 rounded-2xl w-[360px]"
 		>
 			<ParallaxTilt
@@ -62,7 +62,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 					</p>
 				))}
 			</div>
-		</motion.div>
+		</div>
 	)
 }
 
@@ -70,15 +70,13 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 const Works = () => {
 	return (
 		<div>
-			<motion.div variants={textVariant()}>
+			<div>
 				<p className={styles.sectionSubText}>My Projects</p>
 				<h2 className={styles.sectionHeadText}>Projects.</h2>
-			</motion.div>
+			</div>
 
 			<div className="w-full flex">
-				<motion.p
-					variants={fadeIn("right", "", 0.5, 1)}
-					// variants={fadeIn("", "", 0.1, 1)}
+				<p
 					className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
 				>
 					All projects required me to learn new technologies quickly and manage my time
@@ -86,7 +84,7 @@ const Works = () => {
 					been blessed with amazing teammates throughout the years. Because of this,
 					I was able to enhance my communication skills, and I have learned that it's
 					always good and beneficial to the project to lend a helping hand.
-				</motion.p>
+				</p>
 			</div>
 
 			<div className="mt-20 flex flex-wrap gap-7">
