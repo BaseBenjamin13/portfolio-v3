@@ -1,3 +1,5 @@
+
+import React, { useState, useEffect } from 'react';
 import { Tilt } from "react-tilt";
 import ParallaxTilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
@@ -9,26 +11,59 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, link }) => {
+const ProjectImg = ({ name, image, link }) => {
 	return (
-		<div 
+		<img
+			onClick={() => window.open(link, "_blank")}
+			src={image}
+			alt={name}
+			className="w-full h-full object-cover rounded-2xl cursor-pointer"
+		/>
+	)
+}
+
+const ProjectCard = ({ name, description, tags, image, source_code_link, link, }) => {
+
+	const [isMobile, setIsMobile] = useState(false);
+
+	useEffect(() => {
+		const mediaQuery = window.matchMedia('(max-width: 500px)');
+
+		setIsMobile(mediaQuery.matches);
+
+		const handleMediaQueryChange = (event) => {
+			setIsMobile(event.matches);
+		}
+		mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+		return () => {
+			mediaQuery.removeEventListener('change', handleMediaQueryChange);
+		}
+	}, [])
+
+	return (
+		<div
 			className="bg-tertiary p-5 rounded-2xl w-[360px]"
 		>
-			<ParallaxTilt
-				tiltMaxAngleX={45}
-				tiltMaxAngleY={45}
-				scale={1}
-				transitionSpeed={450}
-				className="bg-tertiary rounded-2xl h-[230px] w-full"
-			>
-				<img
-					onClick={() => window.open(link, "_blank")}
-					src={image}
-					alt={name}
-					className="w-full h-full object-cover rounded-2xl cursor-pointer"
-				/>
+			{
+				isMobile ?
+					<div
+						className="bg-tertiary rounded-2xl h-[230px] w-full"
+					>
+						<ProjectImg name={name} image={image} link={link} />
+					</div>
+					:
+					<ParallaxTilt
+						tiltMaxAngleX={45}
+						tiltMaxAngleY={45}
+						scale={1}
+						transitionSpeed={450}
+						className="bg-tertiary rounded-2xl h-[230px] w-full"
+					>
+						<ProjectImg name={name} image={image} link={link} />
+					</ParallaxTilt>
+			}
 
-			</ParallaxTilt>
 			<div className="relative">
 				<div className="absolute inset-0 flex justify-end mt-3 card-img_hover">
 					<div
@@ -65,6 +100,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 		</div>
 	)
 }
+
 
 
 const Works = () => {

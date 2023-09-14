@@ -1,5 +1,3 @@
-
-import React, { useState, useEffect } from 'react';
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, GitHistory } 
@@ -8,23 +6,6 @@ from './components';
 
 
 const App = () => {
-
-	const [isMobile, setIsMobile] = useState(false);
-
-	useEffect(() => {
-		const mediaQuery = window.matchMedia('(max-width: 500px)');
-
-		setIsMobile(mediaQuery.matches);
-
-		const handleMediaQueryChange = (event) => {
-			setIsMobile(event.matches);
-		}
-		mediaQuery.addEventListener('change', handleMediaQueryChange);
-
-		return () => {
-			mediaQuery.removeEventListener('change', handleMediaQueryChange);
-		}
-	}, [])
 
 	return (
 		<BrowserRouter>
