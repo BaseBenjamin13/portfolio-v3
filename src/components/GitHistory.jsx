@@ -15,10 +15,9 @@ function GitHistory() {
             <Stack paddingTop={20}>
                 <Heading
                     fontFamily={"var(--chakra-fonts-mono)"}
-                    fontSize={40}
                     marginY={5}
                     className={styles.sectionHeadText}
-                    >
+                >
                     My GitHub History.
                 </Heading>
 
