@@ -225,6 +225,45 @@ const testimonials = [
 
 const projects = [
     {
+        name: "Bottomless Closet",
+        description:
+            "My team and I won a one week hackathon. The theme was to redesign a non for profit's website. We choose Bottomless Closet. Using git workflow & team code reviews resulted in 0 deployed errors and overall team success. Had daily meetings with dev & UX teams to ensure communication allowing the project to move quickly and smoothly without any miscommunication between teams. My contributions were the homepage, donation process, and API integration.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Next.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "TypeScript",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "PostgreSQL",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Github",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "TailwindCSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Node.js",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: "https://i.imgur.com/9Ph1vuL.png",
+        link: "https://main.d415obh25yr7h.amplifyapp.com",
+        source_code_link: "https://github.com/BaseBenjamin13/bottomlesscloset/tree/dev",
+        source_code_link_backend: "https://github.com/sramalho94/bottomless-closet-backend",
+    },
+    {
         name: "Tech Excess",
         description:
             "Tech excess is a tech store made and reviewed by Benjamin Morgiewicz. Made with React, Django, PSQL, Python, and PayPal's API. In three weeks I learned and used Django's User, Knox authentication token, and PayPal.",
