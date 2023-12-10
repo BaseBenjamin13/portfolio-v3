@@ -81,7 +81,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link, link, }
 					onClick={() => window.open(link, "_blank")}
 					className="flex items-center cursor-pointer"
 				>
-					<h3 className="text-white font-bold text-[24px] mr-2">{name} </h3>
+					<h3 className="text-white font-bold text-[22px] mr-2">{name} </h3>
 					<p className="text-white font-bold text-[16px]"> {` < Visit`}</p>
 				</div>
 				<p className="mt-2 text-secondary text-[16px]">{description}</p>
