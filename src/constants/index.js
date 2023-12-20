@@ -44,7 +44,7 @@ export const navExternalLinks = [
     },
     {
         title: "Resume",
-        link: "https://docs.google.com/document/d/13UiQ3TOMY6_9RDQqnfWd92x5trSAhSIbrGzdXgJZ_Gk/edit?usp=sharing"
+        link: "https://docs.google.com/document/d/1nE7pI-H-R6A6TC2AZISy0a1BEOcka3LNq2h_-JzPB7Q/edit?usp=sharing"
     },
 ];
 
