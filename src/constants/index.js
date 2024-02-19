@@ -55,7 +55,7 @@ const services = [
         link: false,
     },
     {
-        title: "React Native Developer",
+        title: "IOS Developer",
         icon: mobile,
         link: false,
     },
@@ -178,11 +178,11 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Web Developer",
-        company_name: "Freelance",
+        title: "Software Engineer",
+        company_name: "Techjamin",
         icon: logoB,
         iconBg: "#383E56",
-        date: "June 2023 - Present",
+        date: "July 2023 - Present",
         points: [
             "Creating well-structured and tested code using best practices for web development, including responsive design and mobile display.",
             "Turning user stories, mockups, and web designs into functional websites using many tools including React, HTML, CSS, and JavaScript to build, manage and deploy web applications.",
@@ -262,6 +262,33 @@ const projects = [
         link: "https://main.d415obh25yr7h.amplifyapp.com",
         source_code_link: "https://github.com/BaseBenjamin13/bottomlesscloset/tree/dev",
         source_code_link_backend: "https://github.com/sramalho94/bottomless-closet-backend",
+    },
+    {
+        name: "AI Assistant",
+        description:
+            "Too better understand Chat-GPT I decided to make a AI assistant using OpenAI's chat-gpt API. Since my goal for this app was to learn OpenAI's API I just made a simple React app using TailwindCSS for styling.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "TailwindCSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Open AI's API",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Github",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: "https://i.imgur.com/K4c7cCS.png",
+        link: "https://your-ai-assistant.netlify.app",
+        source_code_link: "https://github.com/BaseBenjamin13/ai-assistant",
+        source_code_link_backend: false,
     },
     {
         name: "Tech Excess",
