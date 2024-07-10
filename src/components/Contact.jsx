@@ -34,7 +34,7 @@ const Contact = () => {
 				to_name: 'Benjamin Morgiewicz',
 				from_email: form.email,
 				to_email: 'benmorgiewicz@gmail.com',
-				message: form.message
+				message: form.message + "\n Reply to " + form.email
 			},
             
 			import.meta.env.VITE_REACT_APP_PUBLIC_KEY
