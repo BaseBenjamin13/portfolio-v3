@@ -1,4 +1,5 @@
 import logoB from "./logoB.png";
+import upgLogo from "./upg-logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -23,6 +24,7 @@ import psql from "./tech-imgs/psql.png";
 
 export {
   logoB,
+  upgLogo,
   backend,
   creator,
   mobile,

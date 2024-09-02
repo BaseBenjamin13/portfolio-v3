@@ -14,6 +14,7 @@ import {
     git,
     figma,
     logoB,
+    upgLogo,
     python,
     django,
     psql,
@@ -178,8 +179,21 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Web Developer Intern",
+        company_name: "UPG LLC",
+        icon: upgLogo,
+        iconBg: "#383E56",
+        date: "Aug 2024 - Present",
+        points: [
+            "Furthering my knowledge in web development while using Next.js, JavaScript, and API’s.",
+            "Developing responsive and dynamic web applications.",
+            "Implementing modern front-end technologies and practices.",
+            "Collaborating with a talented team to bring innovative projects to life.",
+        ],
+    },
+    {
         title: "Software Engineer",
-        company_name: "Techjamin",
+        company_name: "Techjamin Freelancing",
         icon: logoB,
         iconBg: "#383E56",
         date: "July 2023 - Present",
@@ -290,115 +304,115 @@ const projects = [
         source_code_link: "https://github.com/BaseBenjamin13/ai-assistant",
         source_code_link_backend: false,
     },
-    {
-        name: "Tech Excess",
-        description:
-            "Tech excess is a tech store made and reviewed by Benjamin Morgiewicz. Made with React, Django, PSQL, Python, and PayPal's API. In three weeks I learned and used Django's User, Knox authentication token, and PayPal.",
-        tags: [
-            {
-                name: "React",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Python",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Django",
-                color: "orange-text-gradient",
-            },
-            {
-                name: "PostgreSQL",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "Github",
-                color: "blue-text-gradient",
-            },
-        ],
-        image: "https://i.imgur.com/zKykPu2.png",
-        link: "https://tech-excess.netlify.app",
-        source_code_link: "https://github.com/BaseBenjamin13/tech-excess-client",
-        source_code_link_backend: "https://github.com/BaseBenjamin13/tech-excess-server",
-    },
-    {
-        name: "Analytical",
-        description:
-        "A group project that helps you manage client & invoice data. I worked on the frontend while my teammate was on the backend. We had regular standups to ensure great communication, time-management, and overall project success. Utilized React, MUI, JavaScript, HTML, CSS, Python, Django, and SQL.",
-        tags: [
-            {
-                name: "React",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "MUI",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Django",
-                color: "orange-text-gradient",
-            },
-            {
-                name: "SQL",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "HTML5",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Python",
-                color: "green-text-gradient",
-            },
-            {
-                name: "CSS3",
-                color: "orange-text-gradient",
-            },
-            {
-                name: "JavaScript",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: "https://i.imgur.com/xczKVTc.png",
-        link: "https://dbanalytical.netlify.app",
-        source_code_link: "https://github.com/BaseBenjamin13/dashboard_client",
-        source_code_link_backend: "https://github.com/darrius-brown/dashboard_django/tree/main",
-    },
-    {
-        name: "StarWars Social",
-        description:
-        "All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later. Made RESTful JSON API fetch calls to an Express, MongoDB, and Node backend handling all (CRUD) functionality's, and tested all backend routes during development using Postman. Used design patterns to define 4 JSON schemas for MongoDB collections. Used passport, and express-session for user authentication.",
-        tags: [
-            {
-                name: "JavaScript",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Node.js",
-                color: "green-text-gradient",
-            },
-            {
-                name: "MongoDB",
-                color: "orange-text-gradient",
-            },
-            {
-                name: "Express",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "Bootstrap",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Handlebars",
-                color: "green-text-gradient",
-            },
-        ],
-        image: "https://i.imgur.com/NdPWO86.jpg",
-        link: "https://starwars-social.herokuapp.com/movies",
-        source_code_link: 'https://github.com/BaseBenjamin13/starwars-social',
-        source_code_link_backend: false,
-    },
+    // {
+    //     name: "Tech Excess",
+    //     description:
+    //         "Tech excess is a tech store made and reviewed by Benjamin Morgiewicz. Made with React, Django, PSQL, Python, and PayPal's API. In three weeks I learned and used Django's User, Knox authentication token, and PayPal.",
+    //     tags: [
+    //         {
+    //             name: "React",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "Python",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "Django",
+    //             color: "orange-text-gradient",
+    //         },
+    //         {
+    //             name: "PostgreSQL",
+    //             color: "pink-text-gradient",
+    //         },
+    //         {
+    //             name: "Github",
+    //             color: "blue-text-gradient",
+    //         },
+    //     ],
+    //     image: "https://i.imgur.com/zKykPu2.png",
+    //     link: "https://tech-excess.netlify.app",
+    //     source_code_link: "https://github.com/BaseBenjamin13/tech-excess-client",
+    //     source_code_link_backend: "https://github.com/BaseBenjamin13/tech-excess-server",
+    // },
+    // {
+    //     name: "Analytical",
+    //     description:
+    //     "A group project that helps you manage client & invoice data. I worked on the frontend while my teammate was on the backend. We had regular standups to ensure great communication, time-management, and overall project success. Utilized React, MUI, JavaScript, HTML, CSS, Python, Django, and SQL.",
+    //     tags: [
+    //         {
+    //             name: "React",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "MUI",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "Django",
+    //             color: "orange-text-gradient",
+    //         },
+    //         {
+    //             name: "SQL",
+    //             color: "pink-text-gradient",
+    //         },
+    //         {
+    //             name: "HTML5",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "Python",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "CSS3",
+    //             color: "orange-text-gradient",
+    //         },
+    //         {
+    //             name: "JavaScript",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: "https://i.imgur.com/xczKVTc.png",
+    //     link: "https://dbanalytical.netlify.app",
+    //     source_code_link: "https://github.com/BaseBenjamin13/dashboard_client",
+    //     source_code_link_backend: "https://github.com/darrius-brown/dashboard_django/tree/main",
+    // },
+    // {
+    //     name: "StarWars Social",
+    //     description:
+    //     "All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and watch/playlists for later. Made RESTful JSON API fetch calls to an Express, MongoDB, and Node backend handling all (CRUD) functionality's, and tested all backend routes during development using Postman. Used design patterns to define 4 JSON schemas for MongoDB collections. Used passport, and express-session for user authentication.",
+    //     tags: [
+    //         {
+    //             name: "JavaScript",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "Node.js",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "MongoDB",
+    //             color: "orange-text-gradient",
+    //         },
+    //         {
+    //             name: "Express",
+    //             color: "pink-text-gradient",
+    //         },
+    //         {
+    //             name: "Bootstrap",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "Handlebars",
+    //             color: "green-text-gradient",
+    //         },
+    //     ],
+    //     image: "https://i.imgur.com/NdPWO86.jpg",
+    //     link: "https://starwars-social.herokuapp.com/movies",
+    //     source_code_link: 'https://github.com/BaseBenjamin13/starwars-social',
+    //     source_code_link_backend: false,
+    // },
     {
         name: "BlackJack",
         description:
