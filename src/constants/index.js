@@ -18,6 +18,7 @@ import {
     python,
     django,
     psql,
+    resume,
 } from "../assets";
 
 export const navLinks = [
@@ -45,7 +46,7 @@ export const navExternalLinks = [
     },
     {
         title: "Resume",
-        link: "https://docs.google.com/document/d/1nE7pI-H-R6A6TC2AZISy0a1BEOcka3LNq2h_-JzPB7Q/edit?usp=sharing"
+        link: resume,
     },
 ];
 

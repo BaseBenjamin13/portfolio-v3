@@ -21,6 +21,7 @@ import typescript from "./tech-imgs/typescript.png";
 import python from "./tech-imgs/python.png";
 import django from "./tech-imgs/django.png";
 import psql from "./tech-imgs/psql.png";
+import resume from "./Benjamin-Morgiewicz-Resume.pdf"
 
 export {
   logoB,
@@ -45,4 +46,5 @@ export {
   python,
   django,
   psql,
+  resume,
 };
