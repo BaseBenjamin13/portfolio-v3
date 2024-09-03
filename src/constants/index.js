@@ -51,6 +51,11 @@ export const navExternalLinks = [
 
 const services = [
     {
+        title: "Content Creator",
+        icon: creator,
+        link: 'https://www.youtube.com/channel/UCOJiwVUueAlGqo788D3d-uQ',
+    },
+    {
         title: "Web Developer",
         icon: web,
         link: false,
@@ -64,11 +69,6 @@ const services = [
         title: "Backend Developer",
         icon: backend,
         link: false,
-    },
-    {
-        title: "Content Creator",
-        icon: creator,
-        link: 'https://www.youtube.com/channel/UCOJiwVUueAlGqo788D3d-uQ',
     },
 ];
 
@@ -413,29 +413,29 @@ const projects = [
     //     source_code_link: 'https://github.com/BaseBenjamin13/starwars-social',
     //     source_code_link_backend: false,
     // },
-    {
-        name: "BlackJack",
-        description:
-        "BlackJack is a card game. The goal of blackjack is to get 21 but if you are over 21 you lose, you can win by getting closer to 21 than the dealer. Utilized Javascript for the logic behind the game and dom manipulation to have live feedback, made in 2 weeks. Created Black Jack with a desktop-first approach and styled using Styled Components and CSS3 with flexbox layouts.",
-        tags: [
-            {
-                name: "JavaScript",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "HTML5",
-                color: "green-text-gradient",
-            },
-            {
-                name: "CSS3",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: "https://i.imgur.com/WADvHYc.jpg",
-        link: "https://basebenjamin13.github.io/Blackjack/",
-        source_code_link: 'https://github.com/BaseBenjamin13/Blackjack',
-        source_code_link_backend: false,
-    },
+    // {
+    //     name: "BlackJack",
+    //     description:
+    //     "BlackJack is a card game. The goal of blackjack is to get 21 but if you are over 21 you lose, you can win by getting closer to 21 than the dealer. Utilized Javascript for the logic behind the game and dom manipulation to have live feedback, made in 2 weeks. Created Black Jack with a desktop-first approach and styled using Styled Components and CSS3 with flexbox layouts.",
+    //     tags: [
+    //         {
+    //             name: "JavaScript",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "HTML5",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "CSS3",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: "https://i.imgur.com/WADvHYc.jpg",
+    //     link: "https://basebenjamin13.github.io/Blackjack/",
+    //     source_code_link: 'https://github.com/BaseBenjamin13/Blackjack',
+    //     source_code_link_backend: false,
+    // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
