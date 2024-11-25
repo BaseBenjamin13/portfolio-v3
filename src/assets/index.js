@@ -1,5 +1,6 @@
 import logoB from "./logoB.png";
 import upgLogo from "./upg-logo.png";
+import newportLogo from "./newportLogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -26,6 +27,7 @@ import resume from "./Benjamin-Morgiewicz-Resume.pdf"
 export {
   logoB,
   upgLogo,
+  newportLogo,
   backend,
   creator,
   mobile,

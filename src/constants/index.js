@@ -15,6 +15,7 @@ import {
     figma,
     logoB,
     upgLogo,
+    newportLogo,
     python,
     django,
     psql,
@@ -180,11 +181,24 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Software Engineer",
+        company_name: "Newport Advisors",
+        icon: newportLogo,
+        iconBg: "#383E56",
+        date: "Nov 2024 - Present",
+        points: [
+            "Executing full lifecycle software development.",
+            "Developing responsive and dynamic web applications.",
+            "Monitor project progress and address any issues promptly.",
+            "Programming well-designed, testable, efficient code.",
+        ],
+    },
+    {
         title: "Web Developer Intern",
         company_name: "UPG LLC",
         icon: upgLogo,
         iconBg: "#383E56",
-        date: "Aug 2024 - Present",
+        date: "Aug 2024 - Nov 2024",
         points: [
             "Furthering my knowledge in web development while using Next.js, JavaScript, and API’s.",
             "Developing responsive and dynamic web applications.",
