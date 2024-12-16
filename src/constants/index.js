@@ -250,6 +250,14 @@ const testimonials = [
         company: false,
         image: "https://jeromehaynes.com/_ipx/w_384,q_75/%2F_next%2Fstatic%2Fmedia%2Fjh.82a0923d.jpg?url=%2F_next%2Fstatic%2Fmedia%2Fjh.82a0923d.jpg&w=384&q=75",
     },
+    {
+        testimonial:
+            "I had the pleasure of working with Ben, who has been an exceptional team member from day one. His consistent performance and ability to take ownership of features, like implementing team role-based permissions and the admin invite manager for our web app, demonstrated his reliability and technical expertise. Ben’s problem-solving skills stood out by delivering a price suggestion functionality in no time. His clean and well-structured code made reviews seamless, with minimal change requests required.",
+        name: "Abdessamad Nouri",
+        designation: false,
+        company: "Block By Block Publishing",
+        image: "https://media.licdn.com/dms/image/v2/D4E03AQHy423jScb7hg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713025870342?e=1740009600&v=beta&t=svK0CsnDiGmfZj0jixWRdKRJrx0cS2QvaszhaklQdgI",
+    },
 ];
 
 const projects = [
